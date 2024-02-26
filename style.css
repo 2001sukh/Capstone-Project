@@ -31,7 +31,7 @@ body {
 
 .nav-menu li a {
   text-decoration: none;
-  color: #bdccd4; 
+  color: #bdccd4;
   font-weight: bold; 
   transition: color 0.3s ease-in-out; 
 }
@@ -53,7 +53,7 @@ body {
   width: 25px;
   height: 3px;
   background-color: #bdccd4; 
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
 }
 
 /* Media query for responsive design */
@@ -70,18 +70,18 @@ body {
     margin-top: 0;
     box-sizing: border-box;
   }
-}
 
-.nav-menu.active {
-  display: flex;
-  top: 30px;
-}
+  .nav-menu.active {
+    display: flex;
+    top: 30px;
+  }
 
-.nav-menu li {
-  padding: 10px 20px;
-  text-align: center;
-}
+  .nav-menu li {
+    padding: 10px 20px;
+    text-align: center;
+  }
 
-#mobile-menu-toggle {
-  display: flex;
+  #mobile-menu-toggle {
+    display: flex;
+  }
 }
