@@ -40,13 +40,14 @@ body {
 
 .nav-menu li a {
   text-decoration: none;
-  color: #bdccd4;
+  color: #ff80ab;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 
 .nav-menu li a:hover {
-  color: #ff80ab;
+  color: #bdccd4;
+
 }
 
 /* Mobile menu toggle styles */
@@ -61,7 +62,7 @@ body {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: #bdccd4;
+  background-color: #ff80ab;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
@@ -95,11 +96,13 @@ body {
     text-align: center;
   }
 
+
   #mobile-menu-toggle {
     display: flex;
-    position: absolute; 
+    position: fixed; 
     top: 20px; 
-    right: 20px; 
+    right: 20px;
     z-index: 10; 
   }
+
 }
