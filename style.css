@@ -7,7 +7,7 @@ body {
 /* Navbar styles */
 #navbar {
   background-color: #f5f0eb; 
-  padding: 10px 20px;
+  padding: 25px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
