@@ -17,3 +17,10 @@ body {
   height: 50px; 
 }
 
+/* Navigation menu styles */
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
