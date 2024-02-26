@@ -48,6 +48,14 @@ body {
   gap: 5px;
 }
 
+#mobile-menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #bdccd4; 
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
 /* Media query for responsive design */
 @media (max-width: 768px) {
   .nav-menu {
