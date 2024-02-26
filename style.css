@@ -61,5 +61,10 @@ body {
     padding: 0;
     margin-top: 0;
     box-sizing: border-box;
-  }}
+  }
+}
 
+.nav-menu.active {
+  display: flex;
+  top: 30px;
+}
