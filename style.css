@@ -39,3 +39,12 @@ body {
 .nav-menu li a:hover {
   color: #ff80ab; 
 }
+
+/* Mobile menu toggle styles */
+#mobile-menu-toggle {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
