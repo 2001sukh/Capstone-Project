@@ -13,6 +13,11 @@ function toggleMobileMenu() {
         bar1.style.transform = 'rotate(-45deg) translate(-5px, 6px)';
         bar2.style.opacity = '0';
         bar3.style.transform = 'rotate(45deg) translate(-5px, -6px)';
-    } 
-}   
+    } else {
+        bar1.style.transform = '';
+        bar2.style.opacity = '';
+        bar3.style.transform = '';
+    }
+}
+    
 document.getElementById('mobile-menu-toggle').addEventListener('click', toggleMobileMenu);
