@@ -21,3 +21,34 @@ function toggleMobileMenu() {
 }
     
 document.getElementById('mobile-menu-toggle').addEventListener('click', toggleMobileMenu);
+
+let slideIndex = 0;
+let autoSlideInterval;
+
+function moveSlide(step) {
+  const slides = document.getElementsByClassName("carousel-slide");
+  if (step > 0) {
+    slideIndex = (slideIndex + 1) % slides.length;
+  } else {
+    slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+  }
+  updateCarousel();
+}
+
+function updateCarousel() {
+  const slides = document.getElementsByClassName("carousel-slide");
+  const carousel = document.querySelector(".carousel-slides");
+  const shift = -slideIndex * 100; 
+  carousel.style.transform = `translateX(${shift}%)`;
+}
+
+function startAutoSlide() {
+  autoSlideInterval = setInterval(function() { moveSlide(1); }, 3000); 
+}
+
+function stopAutoSlide() {
+  clearInterval(autoSlideInterval);
+}
+
+updateCarousel();
+startAutoSlide();
