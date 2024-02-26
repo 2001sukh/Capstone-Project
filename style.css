@@ -3,3 +3,12 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
+/* Navbar styles */
+#navbar {
+  background-color: #f5f0eb; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
