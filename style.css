@@ -24,3 +24,8 @@ body {
   padding: 0;
   display: flex;
 }
+
+.nav-menu li {
+  padding: 0 15px;
+}
+
