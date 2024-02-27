@@ -635,3 +635,8 @@ h2 {
   margin-bottom: 20px;
   font-weight: bold;
 }
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
