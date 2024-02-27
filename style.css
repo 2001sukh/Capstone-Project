@@ -785,6 +785,17 @@ body {
   gap: 20px;
 }
 
+.manager-photo {
+  flex: 1;
+  max-width: 50%;
+}
+
+.manager-photo img {
+  width: 100%;
+  max-width: 100%; 
+  height: auto;
+  border-radius: 10px;
+}
 
 
 
