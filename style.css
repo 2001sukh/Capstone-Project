@@ -317,4 +317,17 @@ body {
   box-sizing: border-box;
 }
 
+.left-column {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  color:#ff80ab;
+  font-size: 2.5em; 
+  margin: 0;
+  line-height: 1.2;
+}
+
+
  
