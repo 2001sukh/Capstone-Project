@@ -513,4 +513,15 @@ h2 {
   padding: 50px;
 }
 
+.story-text {
+  flex: 1 1 40%; 
+  text-align: left;
+  margin-right: 5%;
+  padding: 20px;
+  background: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; 
+}
+
 
