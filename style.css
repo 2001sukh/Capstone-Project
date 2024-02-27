@@ -676,3 +676,9 @@ h2 {
   padding-top: 20px;
   border-top: 1px solid #404040; 
 }
+
+.footer-bottom p {
+  color: #888888;
+  font-size: 0.875rem;
+}
+
