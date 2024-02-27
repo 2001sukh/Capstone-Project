@@ -1059,4 +1059,19 @@ button:hover {
   justify-content: space-between;
 }
 
+.service-card {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+
+
 
