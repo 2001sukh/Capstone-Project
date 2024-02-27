@@ -573,4 +573,10 @@ h2 {
   }
 }
 
+/* Controls Section */
+.controls-container {
+  text-align: center;
+  padding: 20px;
+  width: 100%; 
+}
 
