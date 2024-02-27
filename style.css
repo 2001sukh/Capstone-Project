@@ -960,3 +960,20 @@ body {
   max-width: 700px;
 }
 
+.close {
+  position: absolute;
+  top: 20px; 
+  right: 20px; 
+  padding: 10px 20px; 
+  background-color: #ff80ab; 
+  color: white;
+  margin-top: 335px;
+  border: none; 
+  cursor: pointer;
+  font-size: 16px; 
+  border-radius: 5px; 
+}
+
+.close:hover {
+  background-color:  #92bcd1; 
+}
