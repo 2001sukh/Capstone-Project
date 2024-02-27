@@ -605,3 +605,12 @@ h2 {
   display: block; 
   opacity: 1;
 }
+
+
+/* Footer Styles */
+.site-footer {
+  background-color: #f5f0eb; 
+  color: #ffffff;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+}
