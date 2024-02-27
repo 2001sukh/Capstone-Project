@@ -648,3 +648,7 @@ h2 {
   display: block;
   transition: color 0.3s ease-in-out;
 }
+
+.footer-links li a:hover {
+  color: #ff80ab; 
+}
