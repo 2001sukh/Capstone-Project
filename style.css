@@ -368,3 +368,11 @@ body {
   padding: 0;
   background: #fff; 
 }
+
+/* Services Section */
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
