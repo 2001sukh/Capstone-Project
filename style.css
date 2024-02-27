@@ -1030,5 +1030,12 @@ button:hover {
   background: #ff679b; 
 }
 
+/* Celebration Services Section Styles */
+#celebration-services {
+  margin-top: 40px;
+  text-align: center;
+  padding: 50px 20px;
+}
+
 
 
