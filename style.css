@@ -329,5 +329,16 @@ h1 {
   line-height: 1.2;
 }
 
+.subheader {
+  font-size: 1em;
+  font-weight: 400;
+  color: #92bcd1;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding-left: 20px;
+  position: relative;
+  border-left: 4px solid #92bcd1; 
+  margin-left: 20px;
+}
 
  
