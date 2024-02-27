@@ -543,4 +543,8 @@ h2 {
   transition: transform 0.3s ease-in-out; 
 }
 
+.story-image:hover {
+  transform: scale(1.03); 
+}
+
 
