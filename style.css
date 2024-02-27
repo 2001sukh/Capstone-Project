@@ -977,3 +977,22 @@ body {
 .close:hover {
   background-color:  #92bcd1; 
 }
+
+/* Basic body styles for contact page  */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0; 
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
