@@ -18,7 +18,7 @@ body {
 
 /* Navbar styles */
 #navbar {
-  background-color: #f2f2f2;
+  background-color:#f5f0eb;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -88,6 +88,13 @@ body {
   align-items: center;
   text-align: center;
   color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; 
+  text-align: center;
+  z-index: 2;
 }
 
 .hero-section h1 {
@@ -99,6 +106,29 @@ body {
   font-size: 4rem;
   margin-bottom: 1em;
 }
+
+
+.hero-section h1,
+.hero-section h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
 
 /* Button Styles */
 .button {
@@ -127,7 +157,7 @@ body {
   .nav-menu {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 49px;
     right: 0;
     width: 100%;
     background-color: #f5f0eb;
@@ -156,6 +186,7 @@ body {
 .carousel {
   position: relative;
   max-width: 100%;
+  max-height: 800px;
   overflow: hidden;
 }
 
@@ -167,11 +198,6 @@ body {
 .carousel-slide {
   flex: 0 0 100%;
   max-width: 100%;
-}
-
-img {
-  width: 100%;
-  vertical-align: top;
 }
 
 .prev, .next {
@@ -188,3 +214,91 @@ img {
 
 .prev { left: 10px; }
 .next { right: 10px; }
+
+
+.carousel-slide img {
+  width: 100%;
+  vertical-align: top;
+  height: auto; 
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 100;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 80px; 
+    padding: 10px;
+  }
+
+  .hero-section h2 {
+    font-size: 18px;
+  }
+
+  .button {
+    padding: 8px 16px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 18px; 
+    margin-top: 58px;
+  }
+
+  .hero-section h2 {
+    font-size: 16px;
+  }
+
+  .buttons {
+    display: block;
+    padding-bottom: 15px;
+
+  }
+
+  .button {
+    display: block;
+    margin: 10px auto; 
+  }
+}
+
+/* Add this new style for the text background */
+.text-background {
+  background-color: rgba(255, 255, 255, 0.167); 
+  backdrop-filter: blur(4px); 
+  padding: 20px; 
+  border-radius: 10px; 
+  display: inline-block; 
+}
+
+/* Update the .hero-section to use flexbox for centering */
+.hero-section {
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+  flex-direction: column; 
+}
+
+@media (max-width: 768px) {
+  .text-background {
+    padding: 10px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .text-background {
+    padding: 5px; 
+  }
+}
+
