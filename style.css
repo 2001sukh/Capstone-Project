@@ -883,3 +883,15 @@ body {
   padding: 1rem;
 }
 
+.member-name {
+  font-size: 1.1em;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.member-title {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
