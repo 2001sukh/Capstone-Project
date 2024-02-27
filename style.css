@@ -430,6 +430,12 @@ body {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent); 
 }
 
+.service-card:hover .service-image::after, 
+.service:hover .service-image::after {
+  opacity: 1; 
+}
+
+
 
 
 
