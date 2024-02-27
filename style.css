@@ -547,4 +547,30 @@ h2 {
   transform: scale(1.03); 
 }
 
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .showcase-container {
+    flex-direction: column;
+  }
+
+  .story-text,
+  .story-image-container {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .story-text {
+    order: 2; 
+  }
+
+  .story-image-container {
+    order: 1; 
+  }
+
+  .controls-container {
+    order: 3;
+  }
+}
+
 
