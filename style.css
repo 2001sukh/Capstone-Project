@@ -529,4 +529,11 @@ h2 {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
+.story-image-container {
+  flex: 1 1 55%;
+  position: relative;
+  overflow: hidden; 
+}
+
+
 
