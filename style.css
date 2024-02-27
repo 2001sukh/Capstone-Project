@@ -524,4 +524,9 @@ h2 {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; 
 }
 
+.story-text:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
 
