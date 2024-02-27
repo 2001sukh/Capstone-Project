@@ -312,4 +312,9 @@ body {
   box-sizing: border-box;
 }
 
+.left-column, .right-column {
+  flex-basis: 100%; 
+  box-sizing: border-box;
+}
+
  
