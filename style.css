@@ -768,6 +768,23 @@ body {
   color: #92bcd1; 
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.managers-container {
+  max-width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 
 
 
