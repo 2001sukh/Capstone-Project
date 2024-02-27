@@ -875,4 +875,11 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+.member-image:hover {
+  transform: scale(1.05);
+}
+
+.member-info {
+  padding: 1rem;
+}
 
