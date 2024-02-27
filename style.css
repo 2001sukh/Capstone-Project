@@ -1017,6 +1017,18 @@ input, textarea {
   border: 1px solid #ccc;
 }
 
+button {
+  padding: 1em;
+  background: #ff80ab; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff679b; 
+}
 
 
 
