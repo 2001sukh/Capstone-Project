@@ -753,6 +753,20 @@ body {
   text-align: center;
 }
 
+.profile-title {
+  font-size: 2em; 
+  color: #2c3e50;
+}
+
+.profile-name {
+  font-size: 1.5em;
+  color: #ff80ab;
+}
+
+.profile-description {
+  font-size: 1em;
+  color: #92bcd1; 
+}
 
 
 
