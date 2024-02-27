@@ -1088,6 +1088,13 @@ button:hover {
   transition: opacity 0.5s ease;
 }
 
+.service-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.service-card:hover img {
+  transform: scale(1.1);
+}
 
 
 
