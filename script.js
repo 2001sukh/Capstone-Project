@@ -82,3 +82,29 @@ function previousImage() {
 
 // Initialize the first image
 showImage(currentImageIndex);
+
+
+
+function openModal(src, alt) {
+  var modal = document.getElementById("myModal");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  modal.style.display = "block";
+  modalImg.src = src;
+  captionText.innerHTML = alt;
+}
+
+function closeModal() {
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
+
+// Optional: Close the modal if the user clicks anywhere outside of the modal content
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal");
+  if (event.target == modal) {
+      closeModal();
+  }
+}
+
+
