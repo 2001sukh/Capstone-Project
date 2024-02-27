@@ -500,3 +500,17 @@ h2 {
       width: 300px; 
   }
 }
+
+
+/* Showcase Section (Testimonial)*/
+.showcase-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+
