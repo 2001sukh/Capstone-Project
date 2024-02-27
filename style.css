@@ -1053,5 +1053,10 @@ button:hover {
   margin-bottom: 40px;
 }
 
+.services-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 
