@@ -865,4 +865,14 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 
+.team-member:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.member-image {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
 
