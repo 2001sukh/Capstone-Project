@@ -1096,7 +1096,28 @@ button:hover {
   transform: scale(1.1);
 }
 
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .services-collection {
+    justify-content: center;
+  }
+  
+  .service-card {
+    width: 100%;
+  }
+  
+  .services-intro h2 {
+    font-size: 2rem; 
+  }
+  
+  .services-intro p {
+    font-size: 1rem; 
+  }
 
+  #celebration-services {
+    padding: 30px 15px; 
+  }
+}
 
 
 
