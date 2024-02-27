@@ -640,3 +640,11 @@ h2 {
   list-style: none;
   padding: 0;
 }
+
+.footer-links li a {
+  color: #92bcd1; 
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
