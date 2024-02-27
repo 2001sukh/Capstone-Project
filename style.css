@@ -580,3 +580,12 @@ h2 {
   width: 100%; 
 }
 
+.control-arrow {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  user-select: none;
+  margin: 0 15px;
+  transition: transform 0.2s ease-in-out, color 0.2s ease; 
+}
+
