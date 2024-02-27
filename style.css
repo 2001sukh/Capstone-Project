@@ -1119,6 +1119,15 @@ button:hover {
   }
 }
 
-
+/* Very Small Screens Adjustments */
+@media (max-width: 480px) {
+  .services-intro h2 {
+    font-size: 1.75rem; 
+  }
+  
+  .services-intro p {
+    font-size: 0.9rem; 
+  }
+}
 
 
