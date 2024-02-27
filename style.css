@@ -442,6 +442,18 @@ body {
   transition: color 0.3s ease; 
 }
 
+.service-card:hover .service-link, 
+.service:hover .service-link {
+  color: #007bff; 
+}
+
+h2 {
+  font-size: 1.25rem; 
+  color: #92bcd1;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 
 
