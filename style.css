@@ -797,5 +797,24 @@ body {
   border-radius: 10px;
 }
 
+.manager-info {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.manager-info h2 {
+  color: #2c3e50; 
+  font-size: 2em;
+}
+
+.manager-info h3 {
+  color: #ff80ab; 
+  font-size: 1.5em;
+}
+
+.manager-info p {
+  color: #666;
+}
 
 
