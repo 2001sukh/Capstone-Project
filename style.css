@@ -491,3 +491,12 @@ h2 {
   }
 }
 
+@media (min-width: 1200px) {
+  .service, .service-card {
+      width: 300px; 
+  }
+
+  .service img, .service-image img {
+      width: 300px; 
+  }
+}
