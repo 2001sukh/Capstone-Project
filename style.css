@@ -535,5 +535,12 @@ h2 {
   overflow: hidden; 
 }
 
+.story-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; 
+  transition: transform 0.3s ease-in-out; 
+}
 
 
