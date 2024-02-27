@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: #f5f0eb;
   min-height: 100%;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-menu li a:hover {
-  color: #bdccd4;
+  color: #92bcd1;
 }
 
 /* Mobile menu toggle styles */
@@ -144,7 +144,7 @@ body {
 }
 
 .button:hover {
-  background: #bdccd4;
+  background: #92bcd1;
 }
 
 /* Responsive Design */
@@ -302,3 +302,5 @@ body {
   }
 }
 
+
+ 
