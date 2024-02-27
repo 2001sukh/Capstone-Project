@@ -589,3 +589,8 @@ h2 {
   transition: transform 0.2s ease-in-out, color 0.2s ease; 
 }
 
+.control-arrow:hover {
+  color: #007bff; 
+  transform: scale(1.2); 
+}
+
