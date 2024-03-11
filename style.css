@@ -136,7 +136,7 @@ body {
   padding: 10px 20px;
   margin: 10px;
   background:  #ff80ab;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
   border-radius: 25px;
@@ -263,12 +263,6 @@ body {
   .buttons {
     display: block;
     padding-bottom: 15px;
-
-  }
-
-  .button {
-    display: block;
-    margin: 10px auto; 
   }
 }
 
