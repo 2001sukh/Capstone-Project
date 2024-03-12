@@ -8,17 +8,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f0eb;
-  min-height: 100%;
-}
-
 /* Navbar styles */
 #navbar {
-  background-color:#f5f0eb;
+  background-color:white;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -30,8 +22,8 @@ body {
 }
 
 .logo, .logo img {
-  margin-left: 75px;
-  height: 50px;
+  margin-left: 40px;
+  height: 65px;
 }
 
 /* Navigation menu styles */
@@ -304,6 +296,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 
 .left-column, .right-column {
@@ -356,15 +349,6 @@ h1 {
 }
 
 
-
-/* sercices cards global styles */
-body {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-  padding: 0;
-  background: #fff; 
-}
-
 /* Services Section */
 .services-container {
   display: flex;
@@ -391,6 +375,7 @@ body {
   border-radius: 8px; 
   transition: all 0.3s ease; 
   position: relative; 
+  background-color: white;
 }
 
 .service:hover, .service:focus, 
@@ -512,7 +497,7 @@ h2 {
   text-align: left;
   margin-right: 5%;
   padding: 20px;
-  background: #f9f9f9; 
+  background: #ff0000; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   border-radius: 8px; 
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; 
@@ -588,22 +573,12 @@ h2 {
   transform: scale(1.2); 
 }
 
-/* Show the first image and hide the rest */
-.story-image-container .story-image { 
-  display: none; 
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out; 
-}
 
-.story-image-container .story-image:first-child { 
-  display: block; 
-  opacity: 1;
-}
 
 
 /* Footer Styles */
 .site-footer {
-  background-color: #f5f0eb; 
+  background-color: #fefefe; 
   color: #ffffff;
   padding: 40px 0;
   font-family: 'Arial', sans-serif;
@@ -697,7 +672,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff8f0; 
+  background: #F6F0EA; 
   color: #333;
   line-height: 1.6;
 }
@@ -766,7 +741,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff8f0;
+  background: #F6F0EA;
   color: #333;
   line-height: 1.6;
 }
@@ -978,7 +953,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff8f0; 
+  background: #F6F0EA; 
   color: #333;
   line-height: 1.6;
 }

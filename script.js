@@ -54,36 +54,6 @@ updateCarousel();
 startAutoSlide();
 
 
-var currentImageIndex = 0;
-var images = document.querySelectorAll('.story-image-container .story-image');
-var totalImages = images.length;
-
-function showImage(index) {
-  // Hide all images
-  images.forEach(img => {
-    img.style.display = 'none';
-    img.style.opacity = '0';
-  });
-  
-  // Show the image at the given index
-  images[index].style.display = 'block';
-  setTimeout(() => { images[index].style.opacity = '1'; }, 0); 
-}
-
-function nextImage() {
-  currentImageIndex = (currentImageIndex + 1) % totalImages;
-  showImage(currentImageIndex);
-}
-
-function previousImage() {
-  currentImageIndex = (currentImageIndex - 1 + totalImages) % totalImages;
-  showImage(currentImageIndex);
-}
-
-// Initialize the first image
-showImage(currentImageIndex);
-
-
 
 function openModal(src, alt) {
   var modal = document.getElementById("myModal");
