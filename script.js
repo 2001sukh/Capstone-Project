@@ -77,4 +77,24 @@ window.onclick = function(event) {
   }
 }
 
+let currentTestimonial = 0;
+const testimonials = document.querySelectorAll('.testimonial');
 
+function showTestimonial(index) {
+  testimonials.forEach((testimonial, idx) => {
+    testimonial.style.display = 'none';
+    if(idx === index) {
+      testimonial.style.display = 'block';
+    }
+  });
+}
+
+function changeTestimonial(n) {
+  currentTestimonial += n;
+  if (currentTestimonial > testimonials.length - 1) currentTestimonial = 0;
+  if (currentTestimonial < 0) currentTestimonial = testimonials.length - 1;
+  showTestimonial(currentTestimonial);
+}
+
+// Initially display the first testimonial
+showTestimonial(currentTestimonial);
