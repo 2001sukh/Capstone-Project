@@ -98,3 +98,4 @@ function changeTestimonial(n) {
 
 // Initially display the first testimonial
 showTestimonial(currentTestimonial);
+
