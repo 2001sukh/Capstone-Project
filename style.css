@@ -1222,14 +1222,16 @@ button:hover {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  align-items: stretch; /* Align items stretch to make child elements same height */
+  align-items: stretch;
+  margin-top: 105px;
+  margin-bottom: 28px;
 }
 
 .image-side, .form-side {
-  flex: 1; /* Each takes up equal space */
-  max-width: 50%; /* Adjusted max-width to 50% */
+  flex: 1; 
+  max-width: 50%; 
   display: flex;
-  flex-direction: column; /* Flex direction column to make image cover available vertical space */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -1238,8 +1240,8 @@ button:hover {
 
 .image-side img {
   width: 100%;
-  height: 100%; /* Set height to 100% to cover available space */
-  object-fit: cover; /* Ensure the image covers the space without losing aspect ratio */
+  height: 100%; 
+  object-fit: cover; 
   border-radius: 8px;
 }
 
@@ -1318,5 +1320,231 @@ button:hover {
 
   .form-group label {
     width: 250px;
+  }
+}
+.event-container {
+  max-width: 1200px;
+  margin: 110px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  flex-wrap: wrap;
+}
+
+.service-description,
+.event-imagery {
+  width: 50%; 
+  box-sizing: border-box; 
+}
+
+.service-description {
+  padding: 20px;
+}
+
+.service-description h2 {
+  font-size: 28px;
+  color: #ff80ab;
+  margin-bottom: 16px;
+}
+
+.service-description p {
+  color: #92bcd1;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.service-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.event-imagery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.event-imagery img {
+  width: 100%;
+  height: auto;
+}
+
+.consult-button {
+  background-color:#ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.consult-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.consult-button:hover {
+  background-color:  #92bcd1;
+}
+
+/* Media Query for tablets and mobile devices */
+@media (max-width: 768px) {
+  .service-description,
+  .event-imagery {
+    width: 100%; 
+  }
+
+  .service-description {
+    order: 2; 
+  }
+
+  .event-imagery {
+    order: 1; 
+  }
+
+  .event-container {
+    margin: 30px auto; 
+  }
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 5%; 
+  align-items: center;
+  margin-top: -76px;
+}
+
+.portfolio-item {
+  text-align: center;
+  flex: 0 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  transition: transform 0.3s ease; 
+}
+
+.portfolio-item:hover {
+  transform: scale(1.03); 
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease; 
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.05); 
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: #92bcd1;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+.portfolio-link:hover {
+  color: #7ba4b8; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .portfolio-gallery {
+    padding: 4%; 
+  }
+  .portfolio-item {
+    flex-basis: calc(50% - 20px); 
+  }
+  .portfolio-title {
+    font-size: 1.5em; 
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-gallery {
+    padding: 3%; 
+  }
+  .portfolio-item {
+    flex-basis: 100%; 
+  }
+  .portfolio-title {
+    font-size: 1.25em; 
+  }
+}
+
+.birthdayparty-container {
+  padding: 20px;
+  background: #F6F0EA;
+}
+
+.birthdayparty-header {
+  text-align: center;
+  margin-top: 90px;
+  padding: 20px;
+  background: #ffffff;
+  color: #333;
+  font-size: 2em;
+}
+
+.birthdayparty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.birthdayparty-item {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.birthdayparty-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.birthdayparty-description {
+  padding: 15px;
+  text-align: center;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .birthdayparty-header {
+    font-size: 1.5em;
+  }
+  .birthdayparty-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
   }
 }
